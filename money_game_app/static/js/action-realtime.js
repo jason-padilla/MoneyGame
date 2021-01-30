@@ -7,8 +7,6 @@ $(document).ready(function(){
             data: data
         })
         .done(function(res){
-            console.log("yes")
-            console.log(res)
             $("#actions-table").append(res)
         })
         return false

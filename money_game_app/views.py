@@ -10,7 +10,6 @@ def index(request):
         return render(request, "index.html")
 
 def process_money(request, methods = ['POST'] ):
-    print("hello")
     previous_gold = request.session['MoneyGame_gold']
     if request.POST['type'] == "farm":
         gold = random.randint(10,21)
