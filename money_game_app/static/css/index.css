@@ -1,0 +1,85 @@
+html 
+{
+    font-family: sans-serif;
+}
+body 
+{
+    background-color:#1e1e2f;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.jumbotron 
+{
+    background-color:transparent;
+}
+.content 
+{
+    padding:20px 120px;
+}
+.card 
+{
+    display:inline-block;
+    background: #27293d;
+    border: 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
+}
+.card .card-body .card-title 
+{
+    color: #fff;
+    text-transform: inherit;
+    font-weight: 300;
+    margin-bottom: .75rem;
+}
+.card-header 
+{
+    border-bottom: 1px solid #dee2e6 !important;
+}
+.gold-color 
+{
+    color:#FFFF66;
+}
+button 
+{
+    margin:10px;
+}
+img, h1
+{
+    display: inline-block !important;
+}
+.table td
+{
+    border-top:0px;
+    border-bottom: 1px solid #dee2e6;
+}
+thead 
+{
+    color: white;
+}
+.table-responsivex 
+{
+    overflow: auto;
+    max-height:325px;
+}
+.yellow 
+{
+    color:#FFFF66;
+}
+.blue 
+{
+    color: #17a2b8;
+}
+.green 
+{
+    color: #28a745;
+}
+.lost-gold 
+{
+    color:red;
+}
+.gained-gold 
+{
+    color:green;
+}

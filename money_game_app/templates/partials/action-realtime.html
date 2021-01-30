@@ -1,0 +1,12 @@
+<tr>
+    <td><h5 class = "green">{{previous_action.0}}<h5></td>
+    <td><h5 class = "blue">{{previous_action.1}}<h5></td>
+    <td>
+        {%if previous_action.1 > -1%}
+            <h5 class = "gained-gold">{{previous_action.2}}</h5>
+        {% else %}
+            <h5 class = "lost-gold">{{previous_action.2}}</h5>
+        {%endif%}
+    </td>
+    <td><h5 class = "yellow">{{previous_action.3}}</h5></td>
+</tr>
