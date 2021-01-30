@@ -3,6 +3,7 @@ Money Game is a webpage that allows a user to play a gold finding game. Dependin
 
 # :pencil2: What I learned  
   * Django structure
+  * Session
   * Partials
   * AJAX
 
